@@ -66,8 +66,8 @@
                             </div>
                             <div
                                 class="relative mx-auto aspect-square max-w-md overflow-hidden rounded-full border-8 border-secondary/20">
-                                <img alt="Terapeuta ABA com criança" width="600" height="600" decoding="async"
-                                    data-nimg="1" class="object-cover" style="color:transparent" src="src\images.png" />
+                                <img alt="Minha foto de perfil" width="600" height="600" decoding="async"
+                                    data-nimg="1" class="object-cover" style="color:transparent" src="src/foto_de_perfil.png" />
                             </div>
                         </div>
                     </div>
@@ -75,7 +75,7 @@
                 <section id="services" class="bg-background py-20">
                     <div class="container mx-auto px-4 sm:px-6 lg:px-8">
                         <div class="mx-auto max-w-3xl text-center">
-                            <h2 class="text-3xl font-bold tracking-tight text-primary sm:text-4xl">Nossos Serviços</h2>
+                            <h2 class="text-3xl font-bold tracking-tight text-primary sm:text-4xl">Meus serviços</h2>
                             <p class="mt-4 text-lg text-muted-foreground">Oferecemos serviços de Análise do
                                 Comportamento Aplicada (ABA) para todas as idades, com foco especial em crianças e
                                 adolescentes.</p>
@@ -202,7 +202,7 @@
                         </div>
                     </div>
                 </section>
-                <section id="about" class="bg-secondary/10 py-20">
+                <section id="about" class="bg-secondary/10 py-21">
                     <div class="container mx-auto px-4 sm:px-6 lg:px-8">
                         <div class="grid gap-12 md:grid-cols-2 md:items-center">
                             <div class="relative mx-auto aspect-square max-w-md overflow-hidden rounded-lg shadow-xl">
@@ -391,31 +391,15 @@
                                                 class="flex h-10 rounded-md border border-input bg-background px-3 py-2 text-base ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 md:text-sm mt-1 w-full"
                                                 id="last-name" required="" name="last-name" /></div>
                                     </div>
-                                    <div><label for="email"
-                                            class="block text-sm font-medium text-gray-700">Email</label><input
-                                            type="email"
-                                            class="flex h-10 rounded-md border border-input bg-background px-3 py-2 text-base ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 md:text-sm mt-1 w-full"
-                                            id="email" required="" name="email" /></div>
                                     <div><label for="phone"
-                                            class="block text-sm font-medium text-gray-700">Telefone</label><input
+                                            class="block text-sm font-medium text-gray-700">Telefone (WhatsApp)</label><input
                                             type="tel"
                                             class="flex h-10 rounded-md border border-input bg-background px-3 py-2 text-base ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 md:text-sm mt-1 w-full"
                                             id="phone" name="phone" /></div>
-                                    <div><label for="service" class="block text-sm font-medium text-gray-700">Serviço de
-                                            Interesse</label><select id="service" name="service"
-                                            class="mt-1 block w-full rounded-md border border-gray-300 bg-white px-3 py-2 shadow-sm focus:border-primary focus:outline-none focus:ring-primary sm:text-sm">
-                                            <option>ABA para Crianças</option>
-                                            <option>ABA para Adolescentes</option>
-                                            <option>ABA para Adultos</option>
-                                            <option>ABA para Idosos</option>
-                                            <option>Orientação Familiar</option>
-                                            <option>Avaliação Comportamental</option>
-                                            <option>Outro</option>
-                                        </select></div>
                                     <div><label for="message"
                                             class="block text-sm font-medium text-gray-700">Mensagem</label><textarea
                                             class="flex min-h-[80px] rounded-md border border-input bg-background px-3 py-2 text-base ring-offset-background placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 md:text-sm mt-1 w-full"
-                                            id="message" name="message" rows="4"></textarea></div><button
+                                            id="message" name="message" rows="4" style="height: 167px;"></textarea></div><button
                                         class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 h-10 px-4 py-2 w-full bg-primary text-primary-foreground hover:bg-primary/90"
                                         type="submit">Enviar Mensagem</button>
                                 </form>
@@ -433,6 +417,9 @@
                         <p class="text-sm text-primary-foreground/80">Serviços de Análise do Comportamento Aplicada
                             (ABA) para crianças, adolescentes, adultos e idosos.</p>
                     </div>
+
+                    <!--
+
                     <div class="space-y-3">
                         <h3 class="text-lg font-semibold">Serviços</h3>
                         <ul class="space-y-2 text-sm">
@@ -446,6 +433,7 @@
                                     Familiar</a></li>
                         </ul>
                     </div>
+
                     <div class="space-y-3">
                         <h3 class="text-lg font-semibold">Recursos</h3>
                         <ul class="space-y-2 text-sm">
@@ -457,6 +445,9 @@
                                     Frequentes</a></li>
                         </ul>
                     </div>
+
+                    -->
+
                     <div class="space-y-3">
                         <h3 class="text-lg font-semibold">Contato</h3>
                         <address class="not-italic text-sm text-primary-foreground/80">
