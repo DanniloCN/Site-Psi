@@ -2496,6 +2496,7 @@ body {
 @media (min-width: 640px) {
   .sm\:bottom-0 {
     bottom: 0;
+    color:#14281d;
   }
   .sm\:right-0 {
     right: 0;
@@ -2608,6 +2609,7 @@ body {
   .md\:text-sm {
     font-size: 0.875rem;
     line-height: 1.25rem;
+    color:#14281d;
   }
   .md\:text-xl {
     font-size: 1.25rem;

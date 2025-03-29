@@ -296,8 +296,8 @@
                                 <div>
                                     <h3 class="text-xl font-semibold">Informações de Contato</h3>
                                     <div class="mt-3 space-y-2 text-primary-foreground/90">
-                                        <a href="mailto:dannilocarlos@gmail.com">Email: dannilocarlos@gmail.com</a><br>
-                                        <a href="tel:5581981196750">Telefone: (81) 98119-6750</a>
+                                        <a>Email: </a><a href="mailto:dannilocarlos@gmail.com">dannilocarlos@gmail.com</a><br>
+                                        <a>Telefone: </a><a href="tel:5581981196750">(81) 98119-6750</a>
                                     </div>
                                 </div>
                                 <div>
@@ -320,21 +320,20 @@
                                 </div>
                             </div>
                             <div class="rounded-lg bg-white p-6 shadow-lg">
-                                <form class="space-y-4">
+                                <form method="post" action="form.php" class="space-y-4">
                                     <div class="grid gap-4 md:grid-cols-2">
                                         <div><label for="first-name"
                                                 class="block text-sm font-medium text-gray-700">Nome do responsável</label><input
                                                 class="flex h-10 rounded-md border border-input bg-background px-3 py-2 text-base ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 md:text-sm mt-1 w-full"
-                                                id="first-name" required="" name="first-name" /></div>
+                                                id="first-name" required="" name="resp_name" /></div>
                                         <div><label for="child-name"
                                                 class="block text-sm font-medium text-gray-700">Nome da criança</label><input
                                                 class="flex h-10 rounded-md border border-input bg-background px-3 py-2 text-base ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 md:text-sm mt-1 w-full"
-                                                id="child-name" required="" name="child-name" /></div>
+                                                id="child-name" required="" name="child_name" /></div>
                                     </div>
-                                    <div><label for="phone" class="block text-sm font-medium text-gray-700">Telefone
-                                            (WhatsApp)</label><input type="tel"
+                                    <div><label for="email" class="block text-sm font-medium text-gray-700">Email</label><input type="tel"
                                             class="flex h-10 rounded-md border border-input bg-background px-3 py-2 text-base ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 md:text-sm mt-1 w-full"
-                                            id="phone" name="phone" /></div>
+                                            id="email" name="email" /></div>
                                     <div><label for="message"
                                             class="block text-sm font-medium text-gray-700">Mensagem</label><textarea
                                             class="flex min-h-[80px] rounded-md border border-input bg-background px-3 py-2 text-base ring-offset-background placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 md:text-sm mt-1 w-full"
