@@ -1482,6 +1482,11 @@ body {
 .text-primary {
   color: hsl(var(--primary));
 }
+.icone {
+  font-size: 25px;
+  align-items: center;
+  justify-content: center;
+}
 .text-primary-foreground {
   color: hsl(var(--primary-foreground));
 }
