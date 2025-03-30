@@ -3069,6 +3069,11 @@ body {
   font-size: 32px;
 }
 
+.bi-link::before {
+  content: "\f437";
+  font-size: 32px;
+}
+
 #social {
   vertical-align: middle;
   justify-content: center;
