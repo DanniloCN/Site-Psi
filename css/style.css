@@ -3069,7 +3069,7 @@ body {
   font-size: 32px;
 }
 
-.bi-link::before {
+.bi-link-45deg::before {
   content: "\f437";
   font-size: 32px;
 }
